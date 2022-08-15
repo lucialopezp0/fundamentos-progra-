@@ -1,0 +1,9 @@
+Algoritmo areayperimetro
+	escribir "Ingrese el radio:"
+	leer radio
+	p<-3.1416
+	perimetro<-2*p*radio
+	area<-p*radio*radio
+	escribir "El perimetro es:", perimetro 
+	escribir "El area es:", area 
+FinAlgoritmo
