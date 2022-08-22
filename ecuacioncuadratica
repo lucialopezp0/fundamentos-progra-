@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<iostream>
+#include<math.h>
+#include<conio.h>
+ 
+using namespace std;
+
+void main()
+{
+
+float a,b,c,d,x1,x2;
+cout<<" porfavor ingrese el numero para a: "; cin>>a;
+cout<<" porfavor ingrese el numero para b: "; cin>>b;
+cout<<" porfavor ingrese el numero para c: "; cin>>c;
+d=pow(b,2)-4*a*c;
+if (d>0)
+{
+	x1= (-b +sqrt(b*b -4*a*c))/(2*a);
+	x2= (-b -sqrt(b*b -4*a*c))/(2*a);
+
+	cout<<"el resultado de x1 es: "<<x1<<endl;
+	cout<<"el resultado de x2 es: "<<x1<<endl;
+}
+else 
+	if (d==0)
+	{
+		x1=(-b)/(2*a);
